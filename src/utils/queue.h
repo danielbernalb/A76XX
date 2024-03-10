@@ -104,4 +104,4 @@ class StaticQueue {
     }
 };
 
-#endif A76XX_STATICQUEUE_H_
+#endif //A76XX_STATICQUEUE_H_

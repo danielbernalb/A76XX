@@ -74,8 +74,8 @@ class A76XXMQTTClient : public A76XXSecureClient {
 
     // these two are set to zero by default until a use
     // case for allowing these to change comes up
-    uint8_t                   _client_index;
-    uint8_t                     _session_id;
+    uint8_t _client_index = 0;
+    uint8_t _session_id = 0;
 
   public:
     /*
@@ -218,4 +218,4 @@ class A76XXMQTTClient : public A76XXSecureClient {
     bool isConnected();
 };
 
-#endif A76XX_MQTT_CLIENT_H_
+#endif //A76XX_MQTT_CLIENT_H_

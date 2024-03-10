@@ -117,4 +117,4 @@ class V25TERCommands {
     }
 };
 
-#endif A76XX_V25TER_CMDS_H_
+#endif //A76XX_V25TER_CMDS_H_

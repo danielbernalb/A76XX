@@ -115,7 +115,7 @@ class A76XXHTTPClient : public A76XXSecureClient {
         @brief Execute a GET request.
 
         @param [IN] path The path to the resource, EXCLUDING the leading "/".
-        @param [IN] accept The value of the "Accept" header. If NULL, it defaults to "*\/*".
+        @param [IN] accept The value of the "Accept" header. If NULL, it defaults to.
         @return True if the AT commands required for the operation have been successful. 
             If false, use getLastError() to get details on the error. Also, use
             getResponseStatusCode to get the response status code.
@@ -131,7 +131,7 @@ class A76XXHTTPClient : public A76XXSecureClient {
         @param [IN] content_body The body of the post request.
         @param [IN] content_type The value of the "Content-Type" header. If NULL, it
             defaults to "text/plain".
-        @param [IN] accept The value of the "Accept" header. If NULL, it defaults to "*\/*".
+        @param [IN] accept The value of the "Accept" header. If NULL, it defaults to "".
         @return True if the AT commands required for the operation have been successful. 
             If false, use getLastError() to get details on the error. Also, use
             getResponseStatusCode to get the response status code.
@@ -187,7 +187,7 @@ class A76XXHTTPClient : public A76XXSecureClient {
         @param [IN] content_body The body content, can be NULL
         @param [IN] content_type The value of the "Content-Type" header. If NULL, it
             defaults to "text/plain".
-        @param [IN] accept The value of the "Accept" header. If NULL, it defaults to "*\/*".
+        @param [IN] accept The value of the "Accept" header. If NULL, it defaults to "".
 
         @return True if the AT commands required to send the request have been successful.
             Use getResponseStatusCode to check the request has actually been successful.
@@ -199,4 +199,4 @@ class A76XXHTTPClient : public A76XXSecureClient {
                  const char* accept);
 };
 
-#endif A76XX_HTTP_CLIENT_H_
+#endif //A76XX_HTTP_CLIENT_H_

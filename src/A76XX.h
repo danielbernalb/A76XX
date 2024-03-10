@@ -114,4 +114,4 @@ enum Response_t {
 #include "clients/mqtt.h"
 #include "clients/http.h"
 
-#endif A76XX_H_
+#endif //A76XX_H_

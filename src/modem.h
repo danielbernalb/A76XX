@@ -262,4 +262,4 @@ class A76XX {
     A76XXURC_t listen(uint32_t timeout = 100);
 };
 
-#endif A76XXMODEM_H_
+#endif //A76XXMODEM_H_

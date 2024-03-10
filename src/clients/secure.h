@@ -131,4 +131,4 @@ class A76XXSecureClient : public A76XXBaseClient {
     bool configSSL(uint8_t ssl_version = 4, uint8_t ignore_local_time = 1, uint16_t negotiate_time = 300);
 };
 
-#endif A76XX_SECURE_CLIENT_H_
+#endif //A76XX_SECURE_CLIENT_H_

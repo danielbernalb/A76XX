@@ -342,4 +342,4 @@ class MQTTCommands {
 
 };
 
-#endif A76XX_MQTT_CMDS_H_
+#endif //A76XX_MQTT_CMDS_H_

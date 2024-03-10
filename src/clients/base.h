@@ -24,4 +24,4 @@ class A76XXBaseClient {
     int8_t getLastError();
 };
 
-#endif A76XX_BASE_CLIENT_H_
+#endif //A76XX_BASE_CLIENT_H_

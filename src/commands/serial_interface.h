@@ -60,4 +60,4 @@ class SerialInterfaceCommands {
 
 };
 
-#endif A76XX_SERIALINTERFACE_CMDS_H_
+#endif //A76XX_SERIALINTERFACE_CMDS_H_
