@@ -6,27 +6,27 @@
 
 #ifndef A76XX_URC_QUEUE_SIZE
     /* Controls the size of the queue where URCs are stored */
-    #define A76XX_URC_QUEUE_SIZE 50
+    #define A76XX_URC_QUEUE_SIZE 10
 #endif
 
 #ifndef A76XX_MAX_EVENT_HANDLERS
     /* Controls the maximum number of event handlers that are stored in A76XX::ModemSerial  */
-    #define A76XX_MAX_EVENT_HANDLERS 50
+    #define A76XX_MAX_EVENT_HANDLERS 10
 #endif
 
 #ifndef MQTT_PAYLOAD_BUFFER_LEN
     /* Controls the maximum payload size in bytes of an MQTT message */
-    #define MQTT_PAYLOAD_BUFFER_LEN 500
+    #define MQTT_PAYLOAD_BUFFER_LEN 512
 #endif
 
 #ifndef MQTT_TOPIC_BUFFER_LEN
     /* Controls the maximum topic size of an MQTT message */
-    #define MQTT_TOPIC_BUFFER_LEN 50
+    #define MQTT_TOPIC_BUFFER_LEN 64
 #endif
 
 #ifndef MQTT_MESSAGE_QUEUE_SIZE
     /* Controls the size of the queue to store MQTT message */
-    #define MQTT_MESSAGE_QUEUE_SIZE 50
+    #define MQTT_MESSAGE_QUEUE_SIZE 10
 #endif
 
 enum Response_t {
