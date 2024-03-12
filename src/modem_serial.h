@@ -174,7 +174,7 @@ class ModemSerial {
             return _events_urc_queue.popFront();
         }
 
-        return A76XXURC_t::NONE;
+        return A76XXURC_t::NONE2;
     }
 
     /* 
