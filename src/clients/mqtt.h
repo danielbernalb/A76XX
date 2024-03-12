@@ -43,7 +43,7 @@ class MQTTOnMessageRx : public EventHandler_t {
 class MQTTOnConnectionLost : public EventHandler_t {
   public:
     MQTTOnConnectionLost()
-        : EventHandler_t(A76XXURC_t::MQTT_CONNECTION_LOST, "+CMQTTCONNLOST: ") {}
+        : EventHandler_t(A76XXURC_t::MQTT_CONNECTION_LOST2, "+CMQTTCONNLOST: ") {}
     
     void process(ModemSerial* serial) {}
 };

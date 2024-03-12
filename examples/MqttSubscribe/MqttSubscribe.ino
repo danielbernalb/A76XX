@@ -103,7 +103,7 @@ void loop() {
             break;
         }
 
-        case A76XXURC_t::MQTT_CONNECTION_LOST : {
+        case A76XXURC_t::MQTT_CONNECTION_LOST2 : {
             // implement some logic here to handle lost connections
         }
 
