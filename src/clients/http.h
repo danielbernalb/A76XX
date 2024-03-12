@@ -9,8 +9,8 @@
 */
 class HTTPOnPeerClosed : public EventHandler_t {
   public:
-    HTTPOnPeerClosed()
-        : EventHandler_t(A76XXURC_t::HTTP_PEER_CLOSED, "+HTTP_PEER_CLOSED: ") {}
+  //  HTTPOnPeerClosed()
+  //      : EventHandler_t(A76XXURC_t::HTTP_PEER_CLOSED, "+HTTP_PEER_CLOSED: ") {}
     
     void process(ModemSerial* serial) {}
 };

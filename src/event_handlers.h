@@ -13,7 +13,7 @@ enum A76XXURC_t {
     MQTT_NO_NET,          /* URC emitted when connection with the MQTT broker is lost. */
     HTTP_PEER_CLOSED,     /* URC emitted when connection has been closed by the server. */
     HTTP_NO_NET,          /* URC emitted when the network is unavailable. */
-    NONE                  /* special code used to indicate no URCs where emitted. */
+    NONE                 /* special code used to indicate no URCs where emitted. */
 };
 
 /*
